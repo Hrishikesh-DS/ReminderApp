@@ -39,7 +39,7 @@ class RemainderView : AppCompatActivity(), AdapterView.OnItemClickListener {
         adapter = ReminderAdapter(this, R.layout.reminder_list, reminderList)
         reminderL.adapter = adapter
         reminderL.setOnItemClickListener(this)
-        Log.d("ReminderView", "OnCreate")
+        Log.d("ReminderView", "OnCreateDone")
         adapter.notifyDataSetChanged()
     }
 
